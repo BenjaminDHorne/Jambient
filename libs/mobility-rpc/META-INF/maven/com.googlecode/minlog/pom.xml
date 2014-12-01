@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.googlecode</groupId><!-- needed in combination with the url -->
+	<version>1.2</version>
+	<artifactId>minlog</artifactId>
+	<packaging>jar</packaging>
+	<name>minlog</name>
+	<description>MinLog is a Java logging library.</description>
+	<url>http://minlog.googlecode.com</url>
+	<licenses>
+		<license>
+			<name>BSD style</name>
+			<url>http://www.opensource.org/licenses/bsd-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:svn:http://minlog.googlecode.com/svn/trunk/</connection>
+		<url>http://code.google.com/p/minlog/source/browse/</url>
+	</scm>
+	<developers>
+	   <developer>
+	       <id>nathan.sweet</id>
+	       <name>Nathan Sweet</name>
+	       <email>nathan.sweet@gmail.com</email>
+	   </developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<inherited>true</inherited>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

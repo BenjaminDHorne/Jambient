@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_45
+Built-By: ngallagher
+Created-By: Apache Maven
+Main-Class: com.googlecode.mobilityrpc.quickstart.StandaloneMobilitySe
+ rver
+Archiver-Version: Plexus Archiver
+
